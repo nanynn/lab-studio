@@ -28,10 +28,16 @@ h4{
 	border-bottom: 3px solid #fff;
 }
 
-.navbar-brand .logo{
+.navbar-default .navbar-brand .logo-start{
 	color: #fed136;
 	font-size: 18px;
+	font-family: 'Kaushan Script', cursive;
 }
+.navbar-default .navbar-brand .logo-start:hover{
+	color: #fff;
+	background-color: transparent;
+}
+
 .navpart-header,
 .navbar-nav { 
 	margin: 0 5%
@@ -65,7 +71,7 @@ h4{
 	color: #fff !important;
 }
 
-
+/**********Header************/
 .first-section{
 	padding-top: 20%;
 }
@@ -94,4 +100,51 @@ h4{
 	background-color: #fff;
 	color: #000;
 }
+
+/**********Services************/
+.second-section{
+	padding-top: 5%;
+}
+.columnas{
+	padding: 4% 4%;
+	margin:0;
+}
+
+#services i.fa {
+    height: 70px;
+    width: 70px;
+    background: #fed136;
+    border-radius: 50%;
+    line-height: 70px;
+    text-align: center;
+    color: #FFF;
+}
+
+ /************Portfolio**************************/
+ .third-section{
+ 	padding-top: 5%;
+ 	padding-bottom: 5%;
+ 	background-color: #eeeeee;
+ }
+
+ .titulo-portfolio{
+ 	padding-bottom:5%;
+ }
+
+ .cont-portfolio{
+ 	background-color: #fff;
+ 	width: 100%;
+ }
+
+ .cont-portfolio h5{
+ 	color: #000;
+ }
+
+.cont-portfolio p{
+	font-family: 'Courgette', cursive;
+}
+
+/************About**************************/
+
+
 
