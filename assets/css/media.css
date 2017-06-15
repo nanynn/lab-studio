@@ -1,7 +1,20 @@
-@media (min-width: 535px) and (max-width:824px){
-
+@media (min-width: 768px) and (max-width:1024px){
+	.first-section{
+	padding-top: 40%;
+	}
 }
 
-@media (min-width: 200px) and (max-width: 534px){
-
+@media (min-width: 1px) and (max-width: 767px){
+	.first-section{
+		padding-top: 40%;
+	}
+	.first-section h1{
+		color: #fff;
+		text-align: center;
+		font-size: 48px;
+	}
+	.first-section h4{
+		color: #fff;
+		font-size: 21px;
+	}
 }
